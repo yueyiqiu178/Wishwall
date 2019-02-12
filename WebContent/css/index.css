@@ -1,0 +1,96 @@
+.noborder{border: 0;}
+
+
+.contentarea{
+	font-size: 9pt;
+	color: #333333;
+	border: 1px solid #999999;
+	background-image: url("");
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+
+
+#header{
+	//background: url("../images/bg_top.jpg") repeat-x;
+	margin: 0;
+	padding: 0;
+	
+}
+
+body{
+	margin: 0;
+}
+
+#navigation{
+	background: url("../images/bg_navigation.gif") repeat-x;
+	//border: 1px solid blue;
+	height: 32px;
+	margin: 0;
+	//line-height: 10px;
+	padding-top: 5px;
+	
+}
+
+#navigation ul{
+	list-style-type: none;
+	padding: 0 0 0 12px;
+	margin: 0;
+	width: 650px;
+}
+
+#navigation li{
+	float: left;
+	padding: 0 4px 0 0;
+	
+}
+
+
+#navigation a{
+	font-size: 9pt;
+	text-decoration: underline;
+	font-weight: bold;
+	color: #F54292;
+}
+
+
+#navigation a:hover{
+	font-size: 9pt;
+	text-decoration: underline;
+	font-weight: bold;
+	color: #FF6600;
+}
+
+
+.navigation_input{
+	font-family: º–∑¢≈È;
+	font-size: 9pt;
+	color: #333333;
+	border: 1px solid #7B98B1; 
+	height: 19px;
+}
+
+
+#scrollscript{
+	//height:36px;
+	line-height:36px;
+	margin:0 0 0 0;
+	border: 1px solid blue;
+	background: url("../images/scrollScript_bg.jpg");
+	padding-left:20px;
+}
+
+
+
+#main{
+	
+	margin:0;
+	height: 650px;
+	background: url("../images/bg_main.jpg");
+	
+}
+
+#shadeDiv{
+	
+}
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd" id="WebApp_9" version="2.4">
+  <servlet>
+    <servlet-name>ScriptServlet</servlet-name>
+    <servlet-class>wall.yueyiqiu.servlet.ScriptServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ScriptServlet</servlet-name>
+    <url-pattern>/script</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>PictureCheckCode</servlet-name>
+    <servlet-class>wall.yueyiqiu.servlet.PictureCheckCode</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PictureCheckCode</servlet-name>
+    <url-pattern>/picturecheckcode</url-pattern>
+  </servlet-mapping>
+  <filter>
+  	<filter-name>CharacterEncoding</filter-name>
+  	<filter-class>wall.yueyiqiu.util.CharacterEncodingFilter</filter-class>
+  	<init-param>
+  		<param-name>encoding</param-name>
+  		<param-value>BIG5</param-value>
+  	</init-param>
+  </filter>
+  <filter-mapping>
+  	<filter-name>CharacterEncoding</filter-name>
+  	<url-pattern>/*</url-pattern>
+  </filter-mapping>
+</web-app>
